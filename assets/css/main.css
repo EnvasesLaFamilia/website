@@ -505,7 +505,7 @@ input, select, textarea {
 		font-size: 18pt;
 		line-height: 1.75em;
 		color: #39454b;
-		letter-spacing: 0.025em;
+		/* letter-spacing: 0.025em; */
 	}
 
 		@media screen and (max-width: 1920px) {
@@ -643,7 +643,7 @@ input, select, textarea {
 				.box.style2 {
 					/* padding: 1.5em 1.25em 1.5em 1.25em; */
 					padding: 0.5em 1.25em 0.5em 1.25em;
-					background-color: rgba(255, 255, 255, 0.8);
+					background-color: rgba(255, 255, 255, 0.95);
 				}
 
 		}
@@ -1208,7 +1208,7 @@ input, select, textarea {
     margin-bottom: 16px !important;
     display: grid;
     /* height: 453px !important; */
-    height: 975px !important;
+    height: 795px !important;
     grid-template-rows: 81px minmax(0, 1fr);
     overflow: hidden;
     border-radius: 24px !important;
@@ -1248,7 +1248,7 @@ input, select, textarea {
     position: relative;
     height: 100%;
     width: 100%;
-    padding: 24px;
+    padding: 0px 24px;
 	background-image: url(../../images/wts-bg.webp);
     background-repeat: repeat-y;
 }
@@ -1257,11 +1257,11 @@ input, select, textarea {
     height: -moz-max-content;
     height: max-content;
     max-height: 100%;
-    max-width: 80%;
+    max-width: 47%;
     overflow: auto;
     border-radius: 16px;
-    padding: 10px 18px;
-	margin-top: 16px;
+    padding: 12px;
+	margin-top: 12px;
 }
 .wa-chat-bubble-wrapper-self-wrapper {
     z-index: 10;
@@ -1276,8 +1276,8 @@ input, select, textarea {
 .wa-chat-bubble-wrapper-self {
     display: flex;
     background-color: #dcf7c5 !important;
-    margin-top: 16px;
-    padding: 18px;
+    margin-top: 12px;
+    padding: 12px;
     border-radius: 16px;
     width: 80%;
     overflow: auto;
@@ -2056,7 +2056,7 @@ input, select, textarea {
 								text-decoration: none;
 								height: 2.5em;
 								line-height: 2.5em;
-								padding: 0 0.5em 0 0.5em;
+								padding: 0 0.1em 0 0.1em;
 								outline: 0;
 							}
 
@@ -2192,7 +2192,7 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 3em 0 6em 0;
+			padding: 1em 0 6em 0;
 		}
 
 			.main.style3 .content > header {
